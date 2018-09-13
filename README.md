@@ -54,3 +54,6 @@ Please feel free to contribute. Master branch auto merge locked for approval for
 ## License
 
 *none*
+
+## Travis CI
+[![Build Status](https://travis-ci.com/bgwest/03-async-and-callbacks.svg?branch=master)](https://travis-ci.com/bgwest/03-async-and-callbacks)
