@@ -41,7 +41,7 @@ To use this in your code:
 
 ## Contributing
 
-Please feel free to contribute. Master branch auto merge locked for approval.
+Please feel free to contribute. Master branch auto merge locked for approval for non-contributors.
 
 ## Versioning
 

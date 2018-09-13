@@ -7,10 +7,9 @@ const reader = {};
 
 reader.readFirstNCharactersAsync = (filePath, characterReadLimit, callbackFn) => {
   console.log(`Reading ${filePath}`);
-
   return fs.readFile(filePath, (error, data) => {
     if (error) {
-      return error;
+      return callbackFn(error);
     }
     return callbackFn(data.toString('utf8', 0, characterReadLimit));
   });
